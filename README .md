@@ -66,7 +66,7 @@ For detailed information about each component, refer to the documentation in the
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/
+   git clone https://github.com/RAMANATHAN-19/sensor_microservices.git
 ## Deployment
 
 To deploy this project run
