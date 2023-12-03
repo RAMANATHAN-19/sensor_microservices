@@ -1,0 +1,27 @@
+/* dashboard/src/app/dashboard.component.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+mat-card {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.sensor {
+  margin: 10px;
+}
+
+.sensor-type {
+  font-weight: bold;
+}
+
+.sensor-value {
+  font-size: 1.5em;
+}
+

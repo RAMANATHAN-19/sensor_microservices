@@ -1,0 +1,26 @@
+version: '3'
+services:
+  sensor_integration_service:
+    build:
+      context: ./sensor_integration_service
+    ports:
+      - "8000:8000"
+    environment:
+      - DJANGO_ALLOWED_HOSTS=*
+
+  data_processing_service:
+    build:
+      context: ./data_processing_service
+    ports:
+      - "8001:8001"
+    environment:
+      - DJANGO_ALLOWED_HOSTS=*
+
+  web_app_backend:
+    build:
+      context: ./web_app_backend
+    ports:
+      - "8002:8002"
+    environment:
+      - DJANGO_ALLOWED_HOSTS=*
+

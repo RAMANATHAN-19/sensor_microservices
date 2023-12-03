@@ -1,0 +1,22 @@
+<!-- dashboard/src/app/dashboard.component.html -->
+
+<div class="container">
+  <mat-card>
+    <mat-card-title>Live Sensor Data</mat-card-title>
+    <mat-card-content>
+      <div class="sensor">
+        <div class="sensor-type">Temperature</div>
+        <div class="sensor-value">{{ sensorData.temperature }} °C</div>
+      </div>
+      <div class="sensor">
+        <div class="sensor-type">Motion</div>
+        <div class="sensor-value">{{ sensorData.motion }} units</div>
+      </div>
+      <div class="sensor">
+        <div class="sensor-type">Humidity</div>
+        <div class="sensor-value">{{ sensorData.humidity }}%</div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
+
